@@ -1,0 +1,122 @@
+*
+{
+    /* overflow-y: hidden; */
+}
+.container
+{
+  width: 80%;
+  min-height: 100px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.text-align
+{
+    text-align: center;
+}
+.form-heading h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.form-data label
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+input
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="file"]
+{
+    margin: 10px;
+    height: 30px;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.add
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 10px;
+    min-height: 30px;
+    width: 80%;
+}
+select
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    height: 30px;
+    width: 80%;
+}
+
+table
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skill
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 10px;
+    height: 30px;
+    width: 80%;
+
+}
+.gender
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 10px;
+    height: 30px;
+    width: 80%;
+}
+tr,table,td
+{
+    /* border: 1px solid lightgray; */
+}
+.btnreg
+{
+    background-color: rgb(94, 229, 229);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    /* color: white; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btnclr
+{
+     background-color:rgb(175, 19, 19);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+select,option
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .btn
+{
+    text-align: center;
+} */

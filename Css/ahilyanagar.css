@@ -1,0 +1,23 @@
+table 
+{
+    border-collapse: collapse; /* merges borders */
+    width: auto;
+    
+} 
+th, td 
+{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th 
+{
+    background-color: lightgray;
+}
+
+.mainmap
+{
+    margin: 10px;
+    padding: auto;
+    text-align: center;
+}

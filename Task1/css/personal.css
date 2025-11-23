@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container
+{
+    border: 1px solid lightgray;
+    width: 80%;
+    margin: auto;
+    min-height: auto;
+}
+.form-heading
+{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.form-data
+{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    min-height: 100px;
+    
+}
+.info-lbl
+{
+    text-align: center;
+}
+
+table,tr,td{
+    border: 1px solid black;
+    width: 100%;
+}
+table,tr,td{
+   border-collapse: collapse;
+}
+
+.lbl-class
+{
+    width: 20%;
+    text-align: right;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]
+{
+    width: 70%;
+    padding:10px;
+    margin:10px;
+}
+select
+{
+      width: 70%;
+    padding:10px;
+    margin:10px;
+}
+.box
+{
+    margin: 20px;
+    width:20%;
+    padding: 20px;
+    border: 1px solid black;
+}
+.under
+{
+    padding:10px;
+    margin:0px;
+}
+.info
+{
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 10px;
+    min-height: 300px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

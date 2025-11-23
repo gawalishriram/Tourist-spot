@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/student.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-heading">
+        <h1>Student Registration Form</h1>
+      </div>
+      <div class="form-data">
+        <form action="">
+            <table>
+                <tr class="lbl-width">
+                    <td class="label">
+                        <label for="name">Enter First Name</label>
+                    </td>
+                    <td>
+                        <input type="text"  id="name" name="name" placeholder="Enter FirstName">
+                        <label for="">(max 30 character a-z and A-Z)</label>
+                    </td>
+                </tr>
+
+                 <tr class="lbl-width">
+                    <td class="label">
+                        <label for="last">Enter Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text"  id="last" name="last" placeholder="Enter LastName">
+                        <label for="">(max 30 character a-z and A-Z)</label>
+                    </td>
+                </tr>
+
+                 <tr class="lbl-width">
+                    <td class="label">
+                        <label for="birth">Select BirthDate</label>
+                    </td>
+                    <td>
+                        <input type="date"  id="birth" name="birth">
+                    </td>
+                </tr>
+
+                 <tr class="lbl-width">
+                    <td class="label">
+                        <label for="email">Enter Email Id</label>
+                    </td>
+                    <td>
+                        <input type="email"  id="email" name="email" placeholder="Enter Email Id">
+                    </td>
+                </tr>
+
+                 <tr class="lbl-width">
+                    <td class="label">
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio"  id="gender" name="gender">Male
+                        <input type="radio"  id="gender" name="gender">Female
+                    </td>
+                </tr>
+                
+                 <tr class="lbl-width">
+                    <td class="label">
+                        <label for="add">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="add" id="add" rows="4"></textarea>
+                    </td>
+                </tr>
+
+                 <tr class="lbl-width">
+                    <td class="label">
+                        <label for="city">Enter Your City</label>
+                    </td>
+                    <td>
+                        <input type="text"  id="city" name="city" placeholder="Enter Your City">
+                        <label for="">(max 30 character a-z and A-Z)</label>
+                    </td>
+                </tr>
+                
+                <tr class="lbl-width">
+                    <td class="label">
+                        <label for="pin">Enter Your Pincode</label>
+                    </td>
+                    <td>
+                        <input type="number"  id="pin" name="pin" placeholder="Enter Your Pincode">
+                        <label for="">(6 Digits Number Only)</label>
+                    </td>
+                </tr>
+
+                 <tr class="lbl-width">
+                    <td class="label">
+                        <label for="state">Enter Your State</label>
+                    </td>
+                    <td>
+                        <input type="text"  id="state" name="state" placeholder="Enter Your state">
+                        <label for="">(max 30 character a-z and A-Z)</label>
+                    </td>
+                </tr>
+
+                <tr class="lbl-width">
+                    <td class="label">
+                        <label for="hobby">Select Hobbies</label>
+                    </td>
+                    <td>
+                        <input type="checkbox"  id="hobby" name="hobby">Drawing
+                        <input type="checkbox"  id="hobby" name="hobby">Singing
+                        <input type="checkbox"  id="hobby" name="hobby">Dancing
+                        <input type="checkbox"  id="hobby" name="hobby">Sketching
+                        <input type="checkbox"  id="hobby" name="hobby">Other
+                    </td>
+                </tr>
+
+               <tr class="lbl-width">
+                    <td class="label">
+                        <label for="hobby">Qualification</label>
+                    </td>
+                    <td>
+                        <table>
+                        <tr>
+                            <th>SI.No</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year Of Passing</th>
+                        </tr>
+                        <tr class="stud-data">
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                         <tr class="stud-data">
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                         <tr class="stud-data">
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                         <tr class="stud-data">
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+                 <tr class="lbl-width">
+                    <td class="label">
+                        <label for="Courses">Courses Appiled For</label>
+                    </td>
+                    <td>
+                        <input type="radio"  id="Courses" name="Courses">BCA
+                        <input type="radio"  id="Courses" name="Courses">B.sc
+                        <input type="radio"  id="Courses" name="Courses">BE
+                        <input type="radio"  id="Courses" name="Courses">B.A
+                         <input type="radio"  id="Courses" name="Courses">B.Com
+                    </td>
+                </tr>
+            
+            </table>
+             <div class="btn">
+                        <input type="submit"  id="" name="">
+                        <input type="reset">
+            </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

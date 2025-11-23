@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="emp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-heading">
+        <h1>Employee Registration form</h1>
+      </div>
+      <div class="form-data">
+        <form action="">
+          <table class="table">
+            <tr>
+              <td class="text-align">
+                <label for="name">Enter fullName</label>
+              </td>
+              <td><input id="name" name="name" type="text" placeholder="Enter Your Name" /></td>
+            </tr>
+
+             <tr>
+              <td class="text-align">
+                <label for="email" class="email">Enter Email</label>
+              </td>
+              <td>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+              </td>
+            </tr>
+            <tr>
+              <td class="text-align">
+                <label for="age">Enter Age </label>
+              </td>
+              <td>
+                <input id="age" name="Age" type="number" placeholder="Enter Your Age" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="mobile">Enter Mobile</label>
+              </td>
+              <td>
+                <input id="mobile" name="mobile" type="number" placeholder="Enter Your Mobile Number" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="address">Enter Address</label>
+              </td>
+              <td>
+                <textarea name="address" id="address" class="add" rows="4">
+                  
+                </textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="date">Select BirthDate</label>
+              </td>
+              <td>
+                <input id="date" name="date" type="date" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="gender">Select Gender</label>
+              </td>
+              <td class="gender">
+                <input type="radio" id="male" name="gender" />Male
+                <input type="radio" id="Female" name="gender" />Female
+              </td>
+            </tr>
+
+           
+
+            <tr>
+              <td class="text-align">
+                <label for="skils" >Select Skills</label>
+              </td>
+              <td class="skill">
+                <input type="checkbox" name="html" id="skils" />HTML
+                <input type="checkbox" name="css" id="skils" />class
+                <input type="checkbox" name="js" id="skils" />javascript
+                <input type="checkbox" name="java" id="skils" />java
+                <input type="checkbox" name="python" id="skils" />python
+                <input type="checkbox" name=".net" id="skils" />.net
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="country">Select Country</label>
+              </td>
+              <td>
+                <select name="country" id="country">
+                <option value="select">select</option>
+                <option value="select">india</option>
+                <option value="select">chin</option>
+                <option value="select">japan</option>
+                <option value="select">dubai</option>
+                <option value="select">korea</option>
+              </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="state">Select State</label>
+              </td>
+              <td>
+                <select name="state" id="state">
+                <option value="select">select</option>
+                <option value="mh">Maharashtra</option>
+                <option value="br">Bihar</option>
+                <option value="mp">MadhyaPradesh</option>
+                <option value="gj">Gujrat</option>
+                <option value="up">UP</option>
+              </select>
+              </td>
+            </tr>
+
+             <tr>
+              <td class="text-align">
+                <label for="file">Upload File</label>
+              </td>
+              <td>
+                <input id="file" name="file" type="file" />
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td class="btn">
+                <input type="button" value="Register" id="reg" class="btnreg">
+                <button class="btnclr">clear</button>
+              </td>
+            </tr>
+          
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
